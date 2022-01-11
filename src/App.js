@@ -12,7 +12,9 @@ import Location from "./Pages/Location";
 import CardDetails from "./components/Card/CardDetails";
 
 
+
 function App() {
+  
   return (
     <Router>
       <div className="App">
@@ -50,6 +52,7 @@ const Home = () => {
       updateFetchedData(data);
     })();
   }, [api]);
+  
   return (
     <div className="App">
       <h1 className="text-center mb-3">Characters</h1>
